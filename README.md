@@ -1,5 +1,3 @@
-# Название сценария
+# Передача логов кластера Yandex Managed Service for Kubernetes® в Yandex Cloud Logging
 
-Описание сценария и инструкция по его применению.
-
-Для практических руководств обязательна ссылка на документацию.
+Вы можете отправлять логи кластера [Managed Service for Kubernetes®](https://yandex.cloud/ru/docs/managed-kubernetes) в [Cloud Logging](https://yandex.cloud/ru/docs/logging), используя настройку кластера `master logging` или приложение [Fluent Bit с плагином для Cloud Logging](https://yandex.cloud/ru/marketplace/products/yc/fluent-bit). Подготовка инфраструктуры для Managed Service for Kubernetes® через Terraform описана в [практическом руководстве](https://cloud.yandex.ru/ru/docs/logging/tutorials/k8s-fluent-bit-logging), необходимый для настройки конфигурационный файл [k8s-cluster-with-master-logging.tf](k8s-cluster-with-master-logging.tf) расположен в этом репозитории.
