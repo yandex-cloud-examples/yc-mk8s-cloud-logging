@@ -1,0 +1,3 @@
+# Transferring Yandex Managed Service for Kubernetes® cluster logs to Yandex Cloud Logging
+
+You can send [Managed Service for Kubernetes®](https://yandex.cloud/docs/managed-kubernetes) cluster logs to [Yandex Cloud Logging](https://yandex.cloud/docs/logging) using the `master logging` cluster setting or [Fluent Bit with a Yandex Cloud Logging plugin](https://yandex.cloud/marketplace/products/yc/fluent-bit). See this [tutorial](https://yandex.cloud/docs/logging/tutorials/k8s-fluent-bit-logging) to learn how to prepare the infrastructure for Managed Service for Kubernetes® using Terraform. This repository contains the configuration file you will need: [k8s-cluster-with-master-logging.tf](k8s-cluster-with-master-logging.tf).
